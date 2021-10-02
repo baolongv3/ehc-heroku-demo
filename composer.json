@@ -1,0 +1,13 @@
+{
+    "name": "baolongv3/ehc-demo",
+    "description": "Heroku Test",
+    "autoload": {
+        "psr-4": {
+            "Baolongv3\\EhcDemo\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev" : {
+        "heroku/heroku-buildpack-php" : "*"
+    }
+}
